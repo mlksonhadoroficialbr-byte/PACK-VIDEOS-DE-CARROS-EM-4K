@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Pro - PACK QUE O ALGORITMO AMA❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --neon-purple: #bc13fe;
+            --neon-glow: rgba(188, 19, 254, 0.5);
+            --bg-black: #0f0f0f;
+            --white: #ffffff;
+            --gray: #b3b3b3;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-black);
+            color: var(--white);
+            overflow-x: hidden;
+        }
+
+        /* 1. LOGO OCUPANDO A PARTE DE CIMA INTEIRA */
+        .header-logo {
+            width: 100%;
+            display: block;
+            margin-bottom: 0;
+        }
+
+        .header-logo img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 3px solid var(--neon-purple);
+        }
+
+        /* Barra de Urgência */
+        .live-bar {
+            background: rgba(188, 19, 254, 0.1);
+            border-bottom: 1px solid var(--neon-purple);
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        /* Conteúdo Principal */
+        .hero-section {
+            padding: 60px 5% 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(32px, 8vw, 60px);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .sub-description {
+            font-size: 18px;
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            font-weight: 400;
+        }
+
+        /* Botão Magnético */
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--neon-purple);
+            color: white;
+            padding: 22px 60px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 24px;
+            text-transform: uppercase;
+            box-shadow: 0 0 30px var(--neon-glow);
+            transition: 0.4s;
+        }
+
+        .cta-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 50px var(--neon-purple);
+        }
+
+        /* SEÇÃO DE RESULTADOS */
+        .section-results {
+            padding: 60px 5%;
+        }
+
+        .section-results h2 {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 35px;
+            border-left: 6px solid var(--neon-purple);
+            padding-left: 15px;
+            text-transform: uppercase;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+
+        .res-card {
+            position: relative;
+            aspect-ratio: 2/3;
+            background: #1a1a1a;
+            border-radius: 6px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: 0.3s;
+        }
+
+        .res-card:hover {
+            transform: scale(1.1);
+            z-index: 10;
+            border-color: var(--neon-purple);
+        }
+
+        .res-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .rank-badge {
+            position: absolute;
+            bottom: -10px;
+            left: -5px;
+            font-size: 85px;
+            font-weight: 900;
+            color: #000;
+            -webkit-text-stroke: 2px #444;
+            z-index: 1;
+        }
+
+        /* Checkout Final */
+        .checkout-box {
+            text-align: center;
+            padding: 80px 5%;
+            background: linear-gradient(180deg, #0f0f0f 0%, #000 100%);
+            border-top: 10px solid #222;
+        }
+
+        .price-tag {
+            margin-bottom: 30px;
+        }
+
+        .price-tag .old { text-decoration: line-through; color: var(--gray); font-size: 20px; }
+        .price-tag .new { 
+            display: block; 
+            font-size: 80px; 
+            font-weight: 900; 
+            text-shadow: 0 0 25px var(--neon-glow);
+        }
+
+        @media (max-width: 768px) {
+            .results-grid { grid-template-columns: repeat(2, 1fr); }
+            .hero-section { padding-top: 40px; }
+            .cta-btn { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-logo">
+        <img src="img1.png" alt="Viral Pro Logo">
+    </div>
+
+    <div class="live-bar">
+        🔥 <span id="online-count">62</span> pessoas visualizando agora
+    </div>
+
+    <main class="hero-section">
+        <h1>LUCRO EM <br>ALTA DEFINIÇÃO.</h1>
+        <p class="sub-description">Chega de perder tempo criando do zero. Baixe agora o pack de vídeos prontos e comece a lucrar 100% de comissão hoje mesmo.</p>
+        <a href="https://pay.cakto.com.br/f2f3r8e_861181" class="cta-btn">BAIXAR AGORA</a>
+    </main>
+
+    <section class="section-results">
+        <h2>Resultados de quem está vendendo e lucrando 100%</h2>
+        
+        <div class="results-grid">
+            <div class="res-card"><span class="rank-badge">1</span><img src="img2.png"></div>
+            <div class="res-card"><span class="rank-badge">2</span><img src="img3.png"></div>
+            <div class="res-card"><span class="rank-badge">3</span><img src="img4.png"></div>
+            <div class="res-card"><span class="rank-badge">4</span><img src="img5.png"></div>
+            <div class="res-card"><span class="rank-badge">5</span><img src="img6.png"></div>
+        </div>
+        <div class="results-grid">
+            <div class="res-card"><span class="rank-badge">6</span><img src="img7.png"></div>
+            <div class="res-card"><span class="rank-badge">7</span><img src="img8.png"></div>
+            <div class="res-card"><span class="rank-badge">8</span><img src="img9.png"></div>
+            <div class="res-card"><span class="rank-badge">9</span><img src="img10.png"></div>
+            <div class="res-card"><span class="rank-badge">10</span><img src="img11.png"></div>
+        </div>
+    </section>
+
+    <section class="checkout-box">
+        <h2>COMECE O DOWNLOAD IMEDIATAMENTE</h2>
+        <div class="price-tag">
+            <span class="old">De R$ 57,99 por</span>
+            <span class="new">R$ 12,99</span>
+        </div>
+        <a href="https://pay.cakto.com.br/f2f3r8e_861181" class="cta-btn" style="width: 100%; max-width: 550px;">BAIXAR AGORA</a>
+        <p style="margin-top: 30px; font-size: 13px; color: var(--gray);">Acesso Vitalício • Atualizações Constantes • Download Imediato</p>
+    </section>
+
+    <script>
+        setInterval(() => {
+            const el = document.getElementById('online-count');
+            let count = parseInt(el.innerText);
+            el.innerText = count + (Math.floor(Math.random() * 3) - 1);
+        }, 4000);
+    </script>
+
+</body>
+</html>
